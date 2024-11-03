@@ -1,0 +1,164 @@
+body{
+    background-color: #E9EED9;
+  }
+  .signup-container {
+    width: 450px;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 4px 8px 30px rgba(7, 6, 6, 0.3); 
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 11px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Input Fields Styling */
+  .form-group input {
+    width: 93%; /* Set to full width of the form group */
+    padding: 12px; /* Add padding for better usability */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    font-family: 'Poppins', sans-serif; /* Consistent font family */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+  }
+  
+  /* Input Fields Focus Effect */
+  .form-group input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Input Fields Placeholder Styling */
+  .form-group input::placeholder {
+    color: #999; /* Placeholder color */
+    font-size: 14px; /* Consistent font size */
+  }
+  
+  /* Additional Hover Effect for Input Fields */
+  .form-group input:hover {
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
+  /* Camera Icon Circle */
+  .camera-icon-circle {
+    width: 70px; /* Set width for icon circle */
+    height: 70px; /* Set height for icon circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Rounded circle */
+    background-color: #1877f2; /* Background color */
+    color: #fff; /* Icon color */
+    cursor: pointer;
+    margin-right: 8px; /* Space between icon and label */
+    overflow: hidden; /* Ensures image fits within circle */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  /* Camera Icon Hover Effect */
+  .camera-icon-circle:hover {
+    background-color: #0056b3; /* Darker background on hover */
+  }
+  
+  /* Upload Label Styling */
+  .upload-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #007bff; /* Link color */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Profile Image Upload Container */
+  .profile-image-upload {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Space above the image upload */
+  }
+  .camera-icon{
+    font-size: 200%;
+  }
+  /* Profile Preview Image Styling */
+  .profile-preview {
+    width: 80px; /* Set width for profile preview */
+    height: 80px; /* Set height for profile preview */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 50%; /* Rounded corners for image */
+    border: 2px solid #ccc; /* Border color */
+    transition: border 0.3s ease; /* Smooth border color transition */
+  }
+  
+  /* Profile Preview Hover Effect */
+  .profile-preview:hover {
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
+  /* Button Styling */
+  .signup-btn {
+    padding: 12px; /* Button padding */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-family: 'Poppins', sans-serif; /* Consistent font family */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transition effects */
+  }
+  
+  .signup-btn:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    transform: translateY(-2px); /* Lift effect */
+  }
+  
+  .signup-btn:active {
+    transform: translateY(0); /* Reset lift effect on click */
+  }
+  
+  .signup-btn:disabled {
+    background-color: #ccc; /* Gray background for disabled button */
+    cursor: not-allowed; /* Not-allowed cursor for disabled state */
+  }
+  .signin-area{
+    text-align: center;
+    font-size: 17px; 
+   
+  }
+  
+  .signin1{
+    color: black; 
+    text-decoration:none; 
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    transition: color 0.3s ease;
+  }
+  .signin1:hover {
+    color: #1877F2; 
+    cursor: pointer; 
+  }
+  
